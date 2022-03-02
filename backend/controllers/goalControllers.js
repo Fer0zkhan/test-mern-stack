@@ -18,7 +18,7 @@ const updateGoal = asyncHandler(async (req, res) => {
 
 const deleteGoal = asyncHandler(async (req, res) => {
     res.json({ "message": `Delete goals ${req.params.id}` })
-})
+} )
 
 module.exports = {
     getGoals,
