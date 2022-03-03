@@ -9,15 +9,25 @@
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  background-color: #131313;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
 }
 
 p {
   line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
 }
 
 ul {
@@ -35,6 +45,10 @@ h3 {
   margin-bottom: 10px;
 }
 
+label {
+  color: #e5e5e5
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -48,7 +62,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 60px;
 }
 
@@ -68,7 +82,7 @@ h3 {
 }
 
 .header ul li a:hover {
-  color: #777;
+  color: #e5e5e5;
 }
 
 .header ul li a svg {
@@ -83,7 +97,7 @@ h3 {
 }
 
 .heading p {
-  color: #828282;
+  color: #e5e5e5;
 }
 
 .goals {
@@ -93,7 +107,7 @@ h3 {
 }
 
 .goal {
-  background-color: #f4f4f4;
+  background-color: #fca311;
   margin: 10px 0;
   padding: 20px 0 10px;
   position: relative;
@@ -139,8 +153,8 @@ h3 {
   padding: 10px 20px;
   border: 1px solid #000;
   border-radius: 5px;
-  background: #000;
-  color: #fff;
+  background: #14213d;
+  color: #fca311;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
@@ -186,7 +200,7 @@ h3 {
   width: 64px;
   height: 64px;
   border: 8px solid;
-  border-color: #000 transparent #555 transparent;
+  border-color: #fca311 transparent #fca311 transparent;
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
 }
